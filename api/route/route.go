@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/amitshekhariitbhu/go-backend-clean-architecture/api/middleware"
+	"github.com/amitshekhariitbhu/go-backend-clean-architecture/mongo"
 	"github.com/gin-gonic/gin"
-	"go.mongodb.org/mongo-driver/mongo"
 )
 
 func Setup(env *bootstrap.Env, timeout time.Duration, db mongo.Database, gin *gin.Engine) {
