@@ -1,10 +1,10 @@
 package main
 
 import (
+	"clean_architecture/api/route"
 	"clean_architecture/bootstrap"
 	"time"
 
-	"github.com/amitshekhariitbhu/go-backend-clean-architecture/api/route"
 	"github.com/gin-gonic/gin"
 )
 
